@@ -58,7 +58,7 @@
             android:id="@+id/bfragment1"
             android:layout_width="210dp"
             android:layout_height="90dp"
-            android:onClick="myclick"
+            android:onClick="myClick"
             android:text="open fragment 1"
             android:textSize="25dp" />
 
@@ -66,7 +66,7 @@
             android:id="@+id/bfragment2"
             android:layout_width="210dp"
             android:layout_height="90dp"
-            android:onClick="myclick1"
+            android:onClick="myClick1"
             android:text="open fragment 2"
             android:textSize="25dp" />
     </LinearLayout>
