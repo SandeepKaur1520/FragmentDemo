@@ -35,9 +35,5 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(MainActivity.this,"this is my app fragment 2",Toast.LENGTH_LONG).show();
     }
 
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
 
-    }
 }
