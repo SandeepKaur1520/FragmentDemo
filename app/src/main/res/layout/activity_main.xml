@@ -19,15 +19,25 @@
             android:layout_weight="1"
             android:textAlignment="center"
             android:layout_marginRight="4dp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="My App"
-                android:textSize="25dp"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:onClick="myappclick"
-                android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="myappclick"
+            android:text="My App"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bfragment"
+            android:layout_width="161dp"
+            android:layout_height="70dp"
+            android:onClick="myClick1"
+            android:text="open fragment 2"
+            android:textSize="20dp"
+            android:layout_marginTop="150dp"/>
 
         </FrameLayout>
 
@@ -38,6 +48,7 @@
             android:layout_weight="1"
             android:textAlignment="center"
             android:layout_marginLeft="4dp">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
